@@ -6,13 +6,15 @@ import { BookingComponent } from './booking/booking.component';
 import { TrackingComponent } from './tracking/tracking.component';
 import { AdminComponent } from './admin/admin.component';
 import { AppRoutes } from './app.routing';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookingComponent,
     TrackingComponent,
-    AdminComponent
+    AdminComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
